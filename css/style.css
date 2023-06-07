@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+@font-face {
+    font-family: 'OleoScript';
+    src: url('../fonts/OleoScriptSwashCaps-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Fig';
+    src: url('../fonts/Figtree-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Fira';
+    src: url('../fonts/FiraSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Open';
+    src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Abel', sans-serif;
+}
+
+.banner{
+    width: 100%;
+    /* height: 600px; */
+    height: 100vh;
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 100%, 0.795), hsla(0, 0%, 100%, 0.801)), url(../img/Fondo.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,  hsla(0, 0%, 100%, 0.795), hsla(0, 0%, 100%, 0.801)), url(../img/Fondo.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+.banner-heading{
+    margin-top: 150px;
+}
+
+
+
+.p-text{
+    text-align: justify;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    height: 200px; /* Ajusta el tamaño del logo según tus necesidades */
+}
